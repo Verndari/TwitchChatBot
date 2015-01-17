@@ -10,7 +10,7 @@
 
 var irc = require('twitch-irc');
 var fs = require('fs');
-var Player = require('player')
+//var Player = require('player')
 
 
 var client = new irc.client ({
@@ -21,10 +21,10 @@ var client = new irc.client ({
         tc: 3
     },
     identity: {
-        username: 'gormdev',
-        password: 'oauth:v4xkjiwtrtb9ttaw7n3dpp19kvvjx3'
+        username: 'botname',
+        password: 'oauth:xxxx'
     },
-    channels: ['#gorm_']
+    channels: ['#channelname']
 });
 
 client.connect();
